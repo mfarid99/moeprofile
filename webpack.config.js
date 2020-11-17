@@ -72,7 +72,7 @@ module.exports = (env) => {
     devtool: "inline-source-map",
     devServer: {
       contentBase: "./dev",
-      port: process.env.PORT,
+      port: process.env.PORT || 5000,
     },
   };
 
