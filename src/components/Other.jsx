@@ -1,4 +1,6 @@
 import React from "react"
+import Popup from 'reactjs-popup';
+
 
 export const Other = (props) => {
     
@@ -6,11 +8,13 @@ export const Other = (props) => {
         <>
 
         <div> 
-        <h1 className = "projectName"> Project Name: {props.name} </h1>
-        <div> <h2> Git: <a href = {props.git}>Link To Project</a> </h2></div>
-        <div> <h2> Live: <a href = {props.live}>Link To Website</a> </h2> </div>
+        <h1 className = "projectName">  {props.name} </h1>
+        <div className="gitlivediv"> 
+        <div> <h2 id="git">  <a href = {props.git}>Git</a> </h2></div>
+        <div> <h2 id="live">  <a href = {props.live}>Live</a> </h2> </div>
+        </div>
         <div> <img src = {props.img}></img> </div>
-        <div> {props.tools}</div>
+        <div> <h2>  {props.tools}</h2> </div>
 
         <hr />
 
