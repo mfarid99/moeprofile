@@ -23,9 +23,9 @@ export const App = (props)=> {
 </div>
 
 <div class="tooltip"><div> 
-<Other name= "Digital Newsstand" git = "https://github.com/mfarid99/projects.git" live = "https://moenewsapp.herokuapp.com/" img = "https://i.imgur.com/7prhavU.png"  tools = "Javascript, HTML, CSS, Jquery, API" />  
+<Other name= "UFC" git = "https://github.com/mfarid99/UFC_APP_FE" live = "https://5febac1c3d462f000795d40e--elastic-poincare-6eb85f.netlify.app/" img = "https://i.imgur.com/MHBSS74.png"  tools = "Express, Node, React, Mongoose, Bootstrap" />  
 
-<p class="tooltiptext">App allows users to search and read newspapers articles directly from The Atlantic for a variety of topics including politics, economics, sports and entertainment. Info was pulled from The Atlantic API using Async / Jquery </p>
+<p class="tooltiptext">App allows users to signup or login to view past and upcoming UFC events with links to fighters' bio and stats. search and read newspapers articles directly from The Atlantic for a variety of topics including politics, economics, sports and entertainment. Info was pulled from The Atlantic API using Async / Jquery </p>
 </div>
 </div>
 
