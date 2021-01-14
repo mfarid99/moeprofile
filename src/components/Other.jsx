@@ -15,6 +15,8 @@ export const Other = (props) => {
         </div>
         <div> <img src = {props.img}></img> </div>
         <div> <h2>  {props.tools}</h2> </div>
+        <div> <p> <h3>  {props.disc} </h3></p> </div>
+
 
         <hr />
 
